@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #2b2b2b;
+    }
+    
+    .topnav {
+      overflow: hidden;
+      background-color: #212121;
+      transition: background-color 0.5s;
+    }
+    
+    .topnav a {
+      border-radius: 25px;
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+      font-size: 17px;
+      margin: 0 10px; /* add this line */
+      width: 45px;
+      transition: width 0.75s, background-color 0.5s;
+    }
+    
+    .topnav a:hover {
+      background-color: #E53935;
+      color: black;
+      width: 70px;
+    }
+    
+    .topnav a.active {
+      border-radius: 25px;
+      background-color: #E53935;
+      width: 50;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="topnav">
+    <a href="#home" class="active">
+      <img alt="Home" src="homeIcon.png" style="height: 17px; width: 20px;";>
+    </a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
+  <div style="padding-left:16px">
+    <h2 style="color:#D3E8E8">Welcome to our Website</h2>
+    <p style="color:#D3E8E8">We hope you find what you're looking for!</p>
+    <p font-size: 20px; style="color:#D3E8E8">While your here, check my github at Github.com/SpenGui</p>
+  </div>
+</body>
+</html>
